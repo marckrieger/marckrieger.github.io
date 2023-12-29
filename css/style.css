@@ -1,0 +1,27 @@
+.material-symbols-outlined {
+    animation: pulse 2s infinite;
+    font-variation-settings:
+        'FILL' 0.5,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        font-variation-settings:
+        'FILL' 0;
+    }
+    22%, 78% {
+        font-variation-settings:
+        'FILL' 0;
+    }
+    28%, 72% {
+        font-variation-settings:
+        'FILL' 1;
+    }
+    50% {
+        font-variation-settings:
+        'FILL' 1;
+    }
+  }
